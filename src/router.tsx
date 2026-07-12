@@ -10,6 +10,8 @@ export const getRouter = () => {
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
+    // Menggunakan variabel bawaan Vite yang aman untuk browser
+    basepath: import.meta.env.BASE_URL,
   });
 
   return router;
