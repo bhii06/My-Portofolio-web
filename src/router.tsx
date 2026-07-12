@@ -10,8 +10,8 @@ export const getRouter = () => {
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
-    // Menggunakan variabel bawaan Vite yang aman untuk browser
-    basepath: import.meta.env.BASE_URL,
+    // Tulis langsung nama repositori GitHub Pages kamu agar router tidak tersesat
+    basepath: process.env.NODE_ENV === 'production' ? '/My-Portofolio-web' : '/',
   });
 
   return router;
