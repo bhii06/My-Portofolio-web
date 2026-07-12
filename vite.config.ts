@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
   ],
   // Mengunci jalur dasar agar semua aset dikompilasi ke dalam subfolder repositori kamu
-  base: "/My-Portofolio-web/",
+  base: "/Abhinaya-portofolio/",
   resolve: {
     alias: {
       "@": "/src",

@@ -11,7 +11,7 @@ export const getRouter = () => {
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
     // Tulis langsung nama repositori GitHub Pages kamu agar router tidak tersesat
-    basepath: process.env.NODE_ENV === 'production' ? '/My-Portofolio-web' : '/',
+    basepath: process.env.NODE_ENV === 'production' ? '/Abhinaya-portofolio' : '/',
   });
 
   return router;
